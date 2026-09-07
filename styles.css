@@ -1,42 +1,44 @@
-.middle{
-    		
-    		
+h1 {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        table.middle {
+            width: 100%;
             border: 1px solid black;
-    		border-spacing: 1px; 
-    		padding: 1px;
-    		width: 80%; 
-    		height: 100%;
-    		
-    	}
+            border-spacing: 1px;
+            padding: 1px;
+            margin-bottom: 30px;
+        }
 
+        table.middle td {
+            border: 1px solid black;
+            padding: 1px;
+        }
 
-         table, td{
-           border: 1px solid black;
-           padding: 1px; 
-           
-          }
+        /* Table 1 */
+        #table-1 .center {
+            text-align: center;
+        }
 
+        #table-1 .right {
+            text-align: right;
+        }
 
-    	tr{
-    		height: 20px;
-    	}
+        /* Table 3 */
+        .green {
+            background-color: green;
+        }
 
-    	.green{
-    		background-color: green;
-    	}
+        .blue {
+            background-color: blue;
+        }
 
-    	.blue{
-    		background-color: blue;
-    	}
+        #t-image {
+            text-align: center;
+        }
 
-    	h2{
-    		text-align: center;
-    	}
-
-    	.center{
-    		text-align: center;
-    	}
-
-    	.right{
-    		text-align: right;
-    	}
+        #t-image img {
+            width: 180px;
+            height: auto;
+        }
