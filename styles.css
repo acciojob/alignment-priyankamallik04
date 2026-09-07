@@ -1,9 +1,10 @@
 .middle{
     		
-    		align: center;
-         
+    		
+            border: 1px solid black;
     		border-spacing: 1px; 
-    		width: 100%; 
+    		padding: 1px;
+    		width: 80%; 
     		height: 100%;
     		
     	}
@@ -12,11 +13,13 @@
          table, td{
            border: 1px solid black;
            padding: 1px; 
-           height: 20px;
+           
           }
 
 
-    	
+    	tr{
+    		height: 20px;
+    	}
 
     	.green{
     		background-color: green;
@@ -26,7 +29,7 @@
     		background-color: blue;
     	}
 
-    	h1{
+    	h2{
     		text-align: center;
     	}
 
@@ -37,10 +40,3 @@
     	.right{
     		text-align: right;
     	}
-
-    	#t-image img{
-            text-align: center;
-            
-        }
-   
-     
