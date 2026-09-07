@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+.middle{
+    		
+    		align: center;
+            Spacing: 1px; 
+    		Cell-Padding: 1px;
+    		width: 100%; 
+    		height: 100%;
+    		
+    	}
+
+         table, td{
+           border: 1px solid black; /* Width, style, and color */
+
+          }
+
+    	tr{
+    		height: 20px;
+    	}
+
+    	.green{
+    		background-color: green;
+    	}
+
+    	.blue{
+    		background-color: blue;
+    	}
+
+    	h2{
+    		text-align: center;
+    	}
+
+    	.center{
+    		text-align: center;
+    	}
+
+    	.right{
+    		text-align: right;
+    	}
